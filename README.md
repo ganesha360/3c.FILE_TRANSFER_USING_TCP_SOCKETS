@@ -1,8 +1,8 @@
-### 3c.CREATION FOR FILE TRANSFER USING TCP SOCKETS
-```
-NAME:RAGUNATRH R
-REG NO: 212222240081
-```
+# 3c.CREATION FOR FILE TRANSFER USING TCP SOCKETS
+
+## NAME: GANESH R
+## REG NO: 212222240029
+
 ## AIM:
 To write a python program for creating File Transfer using TCP Sockets Links
 ## ALGORITHM:
@@ -13,7 +13,7 @@ To write a python program for creating File Transfer using TCP Sockets Links
 5. In the client side receive the file from server and then write the content into it.
 ## PROGRAM:
 ## Server:
-```
+```PY
 import socket
 
 def send_file(filename, client_socket):
@@ -44,7 +44,7 @@ start_server()
 
 ```
 ## Client:
-```
+```PY
 import socket
 
 def receive_file(filename, server_socket):
